@@ -1,0 +1,54 @@
+@font-face{
+	font-family: "shoes";
+	src:url("grid-Regular.otf");format ("opentype");
+}
+
+body {
+	margin: 0;
+	padding:10px 10px;
+	font-family: "shoes";
+}
+
+h1 {
+	margin: 0;
+	padding: 50px 50px;
+	background: radial-gradient(circle at center, #e8c6e0 0%, #b9c7ea 100%);
+	color: #1414e6;
+	font-size: 5vw;
+	font-weight: 900;
+	text-transform: uppercase;
+	text-align: center;
+	text-decoration: underline;
+	text-decoration-thickness: 6px;
+	text-underline-offset: 10px;
+	line-height: 1.5;
+	text-shadow: 0 4px 12px rgba(20, 20, 230, 0.5);
+}
+
+h2{
+	color: blue;
+	text-transform: uppercase;
+}
+h3{
+	color: blue;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+p{
+	color:grey;
+	text-transform: uppercase;
+	font-size: 2vw;
+}
+ul{
+	color:grey;
+	text-transform: uppercase;
+}
+details{
+	color:grey;
+	text-transform: uppercase;
+	font-size: 2vw;
+}
+pre{
+	color:grey;
+	font-size: 2vw;
+}
